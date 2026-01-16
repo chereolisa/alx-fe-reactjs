@@ -21,13 +21,13 @@ export default function Counter() {
         Count: {count}
       </p>
       <button onClick={decrement} style={{ margin: "1rem" }}>
-        DECREASE
+        Decrement
       </button>
       <button onClick={reset} style={{ margin: "1rem" }}>
-        RESET
+        Reset
       </button>
       <button onClick={increment} style={{ margin: "1rem" }}>
-        INCREASE
+        Increment
       </button>
     </div>
   );
