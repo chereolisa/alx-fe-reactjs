@@ -1,4 +1,4 @@
-import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { Routes, Route, Link, useNavigate, Router } from "react-router-dom";
 import AddRecipeForm from "./components/AddRecipeForm";
 import RecipeList from "./components/RecipeList";
 import RecipeDetails from "./components/RecipeDetails";
@@ -44,7 +44,7 @@ function App() {
           element={<RecipeDetails onDelete={handleDelete} />}
         />
         <Route path="/edit/:id" element={<EditRecipeForm />} />
-        <Route path="*" element={<div>404 – Page not found</div>} />
+        <Route path="*" element={<div>404 - Page not found</div>} />
       </Routes>
     </div>
   );
