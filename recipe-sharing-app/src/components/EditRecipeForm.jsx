@@ -25,8 +25,8 @@ export default function EditRecipeForm() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     if (!form.title.trim()) return;
     updateRecipe(Number(id), form);
     navigate(`/recipe/${id}`);
