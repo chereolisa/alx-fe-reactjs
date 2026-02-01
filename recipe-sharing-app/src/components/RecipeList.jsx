@@ -1,6 +1,6 @@
 // src/components/RecipeList.jsx
 import { Link } from "react-router-dom";
-import useRecipeStore from "../store/recipeStore"; // adjust path if needed
+import useRecipeStore from "./recipeStore"; // adjust path if needed
 import SearchBar from "./SearchBar";
 
 export default function RecipeList() {
