@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import useRecipeStore from "../store/useRecipeStore";
+import useRecipeStore from "../store/recipeStore";
 
 export default function EditRecipeForm() {
   const { id } = useParams();

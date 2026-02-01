@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import useRecipeStore from "../store/useRecipeStore";
+import useRecipeStore from "../store/recipeStore";
 
 export default function FavoritesList() {
   const favorites = useRecipeStore(

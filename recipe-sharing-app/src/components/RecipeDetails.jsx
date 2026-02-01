@@ -1,5 +1,5 @@
 import { Link, useParams, useNavigate } from "react-router-dom";
-import useRecipeStore from "../store/useRecipeStore";
+import useRecipeStore from "../store/recipeStore";
 
 export default function RecipeDetails({ onDelete }) {
   const { id } = useParams();
