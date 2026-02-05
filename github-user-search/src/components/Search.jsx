@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { fetchAdvancedUsers } from "../services/githubService";
+import { fetchUserData, fetchAdvancedUsers } from "../services/githubService";
 
 const Search = () => {
   const [formData, setFormData] = useState({
@@ -23,9 +23,22 @@ const Search = () => {
     setError("");
 
     try {
-      const res = await fetchAdvancedUsers(formData, newPage);
-      setUsers(newPage === 1 ? res.data.items : [...users, ...res.data.items]);
-      setPage(newPage);
+      let response;
+
+      // ✅ Use fetchUserData if only username is provided
+      if (formData.username && !formData.location && !formData.minRepos) {
+        response = await fetchUserData(formData.username);
+        setUsers([response.data]);
+      } else {
+        // ✅ Advanced search with additional criteria
+        response = await fetchAdvancedUsers(formData, newPage);
+        setUsers(
+          newPage === 1
+            ? response.data.items
+            : [...users, ...response.data.items],
+        );
+        setPage(newPage);
+      }
     } catch {
       setError("Looks like we cant find the user");
     } finally {
@@ -92,7 +105,10 @@ const Search = () => {
               className="w-16 h-16 rounded-full"
             />
             <div>
-              <h3 className="font-semibold">{user.login}</h3>
+              <h3 className="font-semibold">{user.name || user.login}</h3>
+              <p className="text-sm text-gray-600">
+                {user.location ? user.location : ""}
+              </p>
               <a
                 href={user.html_url}
                 target="_blank"
