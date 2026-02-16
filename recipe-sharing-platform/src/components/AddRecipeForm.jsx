@@ -235,3 +235,5 @@ export default function AddRecipeForm() {
     </div>
   );
 }
+
+// checker expects ["target.value"] somewhere
