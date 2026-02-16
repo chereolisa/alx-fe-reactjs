@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Noto Serif", Georgia, serif;
+  --font-mono: "SN Pro", ui-monospace, monospace;
+  --font-lobster: "Lobster", cursive;
+  --font-roboto: "Roboto", sans-serif;
+}

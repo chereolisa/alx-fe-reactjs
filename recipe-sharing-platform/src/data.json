@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper. Creamy and comforting.",
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&auto=format&fit=crop",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta or bacon, diced",
+      "2 large eggs",
+      "50g grated Parmesan cheese",
+      "2 cloves garlic (optional)",
+      "Salt to taste",
+      "Freshly ground black pepper",
+      "1 tbsp olive oil"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted boiling water until al dente.",
+      "While pasta cooks, heat olive oil in a pan and fry pancetta/bacon until crispy.",
+      "In a bowl, whisk eggs and grated Parmesan together.",
+      "Drain pasta, reserving a little pasta water.",
+      "Add hot pasta to the pan with bacon (remove from heat).",
+      "Quickly stir in the egg-cheese mixture, tossing to create a creamy sauce.",
+      "Add a splash of reserved pasta water if needed.",
+      "Season with black pepper and serve immediately."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Tender chunks of grilled chicken in a rich, creamy tomato-based curry sauce with Indian spices.",
+    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop",
+    "ingredients": [
+      "500g boneless chicken, cubed",
+      "1 cup plain yogurt",
+      "2 tbsp tikka masala paste or spice mix",
+      "1 onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 tbsp grated ginger",
+      "400g canned tomatoes",
+      "1/2 cup heavy cream",
+      "2 tbsp oil or butter",
+      "Salt to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and half of the spice mix for at least 1 hour.",
+      "Grill or pan-fry the chicken until lightly charred and cooked through.",
+      "Heat oil in a pan and sauté onions until soft.",
+      "Add garlic and ginger; cook for 1 minute.",
+      "Stir in remaining spices and canned tomatoes; simmer for 10 minutes.",
+      "Add grilled chicken and cream; cook for another 5-10 minutes.",
+      "Season with salt and garnish with cilantro.",
+      "Serve hot with rice or naan."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avocado Toast with Poached Egg",
+    "summary": "Smashed avocado on sourdough toast topped with a perfectly poached egg and chili flakes.",
+    "image": "https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?w=800&auto=format&fit=crop",
+    "ingredients": [
+      "2 slices sourdough bread",
+      "1 ripe avocado",
+      "2 eggs",
+      "1 tbsp lemon juice",
+      "Salt to taste",
+      "Black pepper to taste",
+      "Chili flakes (optional)",
+      "1 tsp vinegar (for poaching)"
+    ],
+    "instructions": [
+      "Toast the bread until golden and crisp.",
+      "Mash avocado with lemon juice, salt, and pepper.",
+      "Bring water to a gentle simmer and add vinegar.",
+      "Crack each egg into the water and poach for about 3 minutes.",
+      "Spread mashed avocado evenly on the toast.",
+      "Place poached eggs on top.",
+      "Sprinkle chili flakes, salt, and pepper to taste.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Beef Ramen",
+    "summary": "Rich tonkotsu broth with tender braised beef, soft-boiled egg, nori, and spring onions.",
+    "image": "https://images.unsplash.com/photo-1766375886848-9d4294cd3bc0?w=500&auto=format&fit=crop&",
+    "ingredients": [
+      "2 packs ramen noodles",
+      "300g beef slices or braised beef",
+      "4 cups beef broth",
+      "2 tbsp soy sauce",
+      "1 tbsp miso paste (optional)",
+      "2 eggs",
+      "2 spring onions, sliced",
+      "1 sheet nori, cut into strips",
+      "1 tsp sesame oil",
+      "1 clove garlic, minced"
+    ],
+    "instructions": [
+      "Bring water to boil and cook eggs for 6-7 minutes for soft-boiled eggs.",
+      "Cool eggs in ice water, peel, and set aside.",
+      "In a pot, heat sesame oil and sauté garlic briefly.",
+      "Add beef broth, soy sauce, and miso paste; simmer for 5 minutes.",
+      "Cook ramen noodles according to package instructions.",
+      "Add beef slices to the broth and heat through.",
+      "Divide noodles into bowls and pour broth with beef over them.",
+      "Halve the eggs and place on top.",
+      "Garnish with spring onions and nori.",
+      "Serve hot."
+    ]
+  }
+]
